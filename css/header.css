@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo-fr {
+    background:#1baba1;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.list-header li {
+    color: #404f54;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    list-style-type: none;
+    margin: 0 2.5rem 0 0;
+}
+
+.post-job {
+    border: 1px solid #000000;
+    border-radius: 12px;
+    padding: 3px 7px;
+}
