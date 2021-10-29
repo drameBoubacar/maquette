@@ -46,3 +46,38 @@
     position: relative;
     right: 8.8rem;
 }
+
+.content-text {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+}
+
+.content-text h3 {
+    color: #404f54;
+    font-size: 26px;
+    font-family: "Lora";
+    font-weight: 700;
+    margin: 0 100px 0 0;
+}
+
+.span-space {
+    margin: 0 50px 0 30px;
+}
+
+.sub-title {
+    color: #1baba1;
+    font-family: "Lora";
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.content-text-description {
+    color: #404f54;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
