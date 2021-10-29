@@ -1,33 +1,60 @@
+
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    height: 100px;
+    padding: 0 245px;
 }
 
-.list-header {
-    display: flex;
+header h1{
     align-items: center;
-}
-
-.logo-fr {
-    background:#1baba1;
-    color: #ffffff!important;
-    padding: 1rem;
-}
-
-.list-header li {
-    color: #404f54;
-    font-size: 14px;
+    background-color: #1baba1;
+    color: #ffffff;
+    display: flex;
+    font-size: 28px;
+    font-family: "Lora";
     font-weight: 700;
+    height: 55px;
+    justify-content: center;
+    text-align: center;
+    width: 52px;
+}
+
+header nav {
+    margin: 42px 0 0 0;
+}
+
+header nav a {
+    color: #404f54;
     font-family: "Open Sans";
-    list-style-type: none;
-    margin: 0 2.5rem 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 28px 0 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 53px;
 }
 
 .post-job {
-    border: 1px solid #000000;
-    border-radius: 12px;
-    padding: 3px 7px;
+    background: #ffffff;
+    border: 2px solid #b2b9ba;
+    border-radius: 19px;
+    color:#b2b9ba;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    height: 38px;
+    text-transform: uppercase;
+    width: 156px;
 }
+
+
+
+
+
+
+
+
 
 .header-banner {
     background: url(../img/background.jpg);
