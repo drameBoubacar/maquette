@@ -45,6 +45,7 @@
     width: 130px;
     position: relative;
     right: 8.8rem;
+    text-transform: uppercase;
 }
 
 .content-text {
