@@ -1,50 +1,68 @@
 header {
     display: flex;
     justify-content: flex-start;
-    height: 100px;
-    padding: 0 245px;
+    height: 6.25rem;
+    padding: 0 15.313rem;
+    width: 69.375rem;
 }
 
-header h1{
+header h1 a{
     align-items: center;
     background-color: #1baba1;
     color: #ffffff;
     display: flex;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-family: "Lora";
     font-weight: 700;
-    height: 55px;
+    height: 3.438rem;
     justify-content: center;
     text-align: center;
-    width: 52px;
+    text-decoration: none;
+    width: 3.25rem;
 }
 
 header nav {
-    margin: 42px 0 0 0;
+    margin: 2.625rem 0 0 0;
 }
 
-header nav a {
+/* nav:nth-child(2n+0) {
+    width: 34rem;
+}
+
+nav:nth-child(2n+1) {
+    width: 22 rem;
+} */
+
+.list-header {
+    display: flex;
+    margin: 0;
+}
+
+.list-header li {
+    list-style-type: none;
+}
+
+.list-header li a {
     color: #404f54;
     font-family: "Open Sans";
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    margin: 0 28px 0 0;
+    margin: 0 1.875rem 0 0;
     text-decoration: none;
     text-transform: uppercase;
-    width: 53px;
+    width: 3.313rem;
 }
 
-.post-job {
+#post-job {
     background: #ffffff;
-    border: 2px solid #b2b9ba;
-    border-radius: 19px;
+    border: 0.125rem solid #b2b9ba;
+    border-radius: 1.188rem;
     color:#b2b9ba;
     font-family: "Open Sans";
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
-    height: 38px;
+    padding: 0.75rem 1.563rem;
     text-transform: uppercase;
-    width: 156px;
 }
 
 
