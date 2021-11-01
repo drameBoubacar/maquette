@@ -23,29 +23,42 @@
     margin: 0 0 33px 0;
 }
 
-.input-banner {
+.container-form {
     background: #ffffff;
-    border: none;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     filter: drop-shadow(0px 5px 5px rgba(0,22,27,0.3));
-    height: 62px;
-    margin-left: 9rem;
-    width: 730px;
+    height: 3.938rem;
+    margin: auto;
+    width: 45.813rem;
 }
 
-.btn-find {
+.input-banner {
+    border: none;
+    width: 33.125rem;
+    margin: 0 0 0 1.188rem;
+}
+
+.input-banner:focus {
+    outline: none;
+}
+
+.btn-find{
     background: #d02184;
     border: none;
-    border-radius: 26px;
+    border-radius: 1.625rem;
     color: #ffffff;
     font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 700;
-    height: 52px;
-    width: 130px;
-    position: relative;
-    right: 8.8rem;
+    font-size: 0.875rem;
+    height: 3.25rem;
+    margin: 0.313rem 0 0 2.313rem;
     text-transform: uppercase;
+    width: 8.125rem;
+}
+
+.btn-find a {
+    color: #ffffff;
+    text-decoration: none;
+    
 }
 
 .content-text {
